@@ -1,0 +1,232 @@
+body {
+    background-image: url(images/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    color: black;
+}
+    body:hover {
+        background: black;
+        color: green;
+    }
+
+a {
+    background: transparent;
+    color: black;
+}
+    a:hover {
+        background: transparent;
+        color: rgb(75, 75, 75);
+    }
+
+header {
+    background: transparent;
+    color: black;
+    width: auto;
+    height: auto;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .logo {
+        background: transparent;
+        color: black;
+        width: 400px;
+        height: auto;
+    }
+
+.button {
+    background: white;
+    color: #b4d0e0;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#div {
+    background: transparent;
+    color: green;
+    width: 1500px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    #div:hover {
+        background: transparent;
+        color: green;
+    }
+    #div .h1 {
+        background: transparent;
+        color: thistle;
+            text-shadow: rgba(50, 50, 50, 0.100) 5px 5px;
+        font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+        font-size: 26px;
+    }
+        #div .h1:hover {
+            background: transparent;
+            color: green;
+        }
+    #div .h2 {
+        background: transparent;
+        color: thistle;
+            text-shadow: rgba(50, 50, 50, 0.100) 15px 15px;
+        font-family: 'Arial Bold', sans-serif;
+        font-size: 52px;
+    }
+        #div .h2:hover {
+            background: transparent;
+            color: green;
+        }
+    #div .h3 {
+        background: transparent;
+        color: thistle;
+            text-shadow: rgba(50, 50, 50, 0.100) 15px 15px;
+        font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+        font-size: 78px;
+    }
+        #div .h3:hover {
+            background: transparent;
+            color: green;
+        }
+    #div .h4 {
+        background: transparent;
+        color: thistle;
+            text-shadow: rgba(50, 50, 50, 0.100) 15px 15px;
+        font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+        font-size: 104px;
+    }
+        #div .h4:hover {
+            background: transparent;
+            color: green;
+        }
+    #div .p {
+        background: transparent;
+        color: green;
+        font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+        font-size: 13px;
+    }
+        #div .p:hover {
+            background: transparent;
+            color: green;
+        }
+        #div .p::before {
+            font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            content: "''";
+        }
+        #div .p::after {
+            font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            content: "''";
+        }
+
+#about {
+    background: #c2e0f2;
+    color: black;
+    width: 1400px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ico {
+    background: transparent;
+    color: black;
+    width: 150px;
+    height: 150px;
+}
+
+#gen_middle {
+    background: rgb(75, 100, 125);
+        background-repeat: no-repeat;
+        background-size: cover;
+    color: rgb(14, 44, 75);
+    border-radius: 10px 10px 10px 10px;
+}
+    #gen_middle:hover {
+        background: transparent;
+        color: green;
+    }
+    #in_middle {
+        background: rgb(14, 44, 75);
+        color: rgb(75, 100, 125);
+        width: 255px;
+        height: auto;
+        border-radius: 10px 10px 10px;
+        display: inline-block;
+    }
+        #in_middle:hover {
+            background: transparent;
+            color: green;
+        }
+        figure {
+            background: black;
+                box-shadow: rgba(75, 25, 25, 0.100);
+            color: green;
+            width: 250px;
+            height: 75px;
+            border-radius: 10px 10px 10px;
+            margin: 0;
+
+        }
+        audio {
+            background: black;
+                box-shadow: rgba(75, 25, 25, 0.100);
+            color: green;
+            width: 250px;
+            height: 25px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        
+        #song {
+            background: transparent;
+            color: green;
+            width: auto;
+            height: auto;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+#gen_footer {
+    background: transparent;
+    color: green;
+    width: 1000px;
+    height: 50px;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: 900px;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+}
+    #gen_footer:hover {
+        background: transparent;
+        color: green;
+    }
+    object {
+        background: transparent;
+        color: green;
+        width: 125px;
+        height: 125px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        object:hover {
+            background: transparent;
+            color: green;
+            width: 150px;
+            height: 150px;
+        }
+    #in_footer {
+        background: transparent;
+        color: green;
+        width: 950px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        #in_footer:hover {
+            background: transparent;
+            color: green;
+        }
