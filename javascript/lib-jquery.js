@@ -56,14 +56,26 @@ function Profil() {
 
 
 
-
 function easteregg() {
     $(document).ready(function(){
         $("button").click(function(){
             $("#div").hide();
-            $("#gen_footer").show();
-            $("#gen_middle").show();
-            $("#in_middle").show();
+            $("#gen_footer").hide();
+            $("#in_middle").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+
+            $("#footer").show();
         });
     });
 }
