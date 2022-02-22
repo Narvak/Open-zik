@@ -193,12 +193,13 @@ header {
     background: transparent;
     color: green;
     width: 1000px;
-    height: 50px;
+    height: 100px;
     border-radius: 0px 0px 0px 0px;
-    margin-left: 900px;
+    margin-left: auto;
     margin-right: auto;
     position: absolute;
     bottom: 0;
+    margin: 0 auto;
 }
     #gen_footer:hover {
         background: transparent;
@@ -207,8 +208,8 @@ header {
     object {
         background: transparent;
         color: green;
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -222,7 +223,7 @@ header {
         background: transparent;
         color: green;
         width: 950px;
-        height: 50px;
+        height: 100px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -230,3 +231,16 @@ header {
             background: transparent;
             color: green;
         }
+.btn_footter {
+    background: transparent;
+    color: green;
+    width: 150px;
+    height: 100px;
+    border-color: black;
+    border: 3px solid;
+    border-radius: 100px 100px 0px 0px;
+}
+    .btn_footter:hover {
+        background: rgba(255, 255, 255, 0.466);
+        border-color: green;
+    }
