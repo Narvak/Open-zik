@@ -197,9 +197,9 @@ header {
     border-radius: 0px 0px 0px 0px;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    bottom: 0;
-    margin: 0 auto;
+    position: fixed;
+    bottom: 1;
+    margin: auto;
 }
     #gen_footer:hover {
         background: transparent;
