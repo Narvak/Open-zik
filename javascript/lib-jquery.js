@@ -52,3 +52,18 @@ function Profil() {
         });
     });
 }
+
+
+
+
+
+function easteregg() {
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#div").hide();
+            $("#gen_footer").show();
+            $("#gen_middle").show();
+            $("#in_middle").show();
+        });
+    });
+}
