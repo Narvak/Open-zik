@@ -123,8 +123,8 @@ header {
         }
 
 #about {
-    background: #c2e0f2;
-    color: black;
+    background: transparent;
+    color: green;
     width: 1400px;
     height: auto;
     border-radius: 10px 10px 10px 10px;
