@@ -75,7 +75,32 @@ function easteregg() {
             $("#").hide();
             $("#").hide();
 
-            $("#footer").show();
+            $("footer").show();
+        });
+    });
+}
+
+function showme() {
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#div").hide();
+            $("#gen_footer").hide();
+            $("#in_middle").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+            $("#").hide();
+
+            $("footer").show();
+            $("#showme").show();
         });
     });
 }

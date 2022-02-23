@@ -58,7 +58,6 @@ header {
     #div .h1 {
         background: transparent;
         color: thistle;
-            text-shadow: rgba(50, 50, 50, 0.100) 5px 5px;
         font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
         font-size: 26px;
     }
@@ -69,7 +68,6 @@ header {
     #div .h2 {
         background: transparent;
         color: thistle;
-            text-shadow: rgba(50, 50, 50, 0.100) 15px 15px;
         font-family: 'Arial Bold', sans-serif;
         font-size: 52px;
     }
@@ -80,7 +78,6 @@ header {
     #div .h3 {
         background: transparent;
         color: thistle;
-            text-shadow: rgba(50, 50, 50, 0.100) 15px 15px;
         font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
         font-size: 78px;
     }
@@ -91,7 +88,6 @@ header {
     #div .h4 {
         background: transparent;
         color: thistle;
-            text-shadow: rgba(50, 50, 50, 0.100) 15px 15px;
         font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
         font-size: 104px;
     }
