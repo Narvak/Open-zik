@@ -1,0 +1,4 @@
+-- SQLite
+SELECT 1;
+
+
