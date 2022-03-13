@@ -1,4 +1,0 @@
--- SQLite
-SELECT 1;
-
-
