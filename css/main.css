@@ -1,13 +1,9 @@
 body {
-    background-image: url(images/background.png);
+    background-image: url(../media/images/background.JPG);
         background-repeat: no-repeat;
         background-size: cover;
     color: black;
 }
-    body:hover {
-        background: black;
-        color: green;
-    }
 
 a {
     background: transparent;
@@ -53,37 +49,33 @@ header {
 }
     #div .h1 {
         background: transparent;
-        color: thistle;
+        color: red;
         font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
         font-size: 26px;
     }
-        #div .h1:hover {
-            background: transparent;
-            color: green;
-        }
     #div .h2 {
         background: transparent;
-        color: thistle;
+        color: red;
         font-family: 'Arial Bold', sans-serif;
         font-size: 52px;
     }
     #div .h3 {
         background: transparent;
-        color: thistle;
+        color: red;
         font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
         font-size: 78px;
     }
     #div .h4 {
         background: transparent;
-        color: thistle;
+        color: red;
         font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
         font-size: 104px;
     }
     #div .p {
         background: transparent;
-        color: green;
+        color: white;
         font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
-        font-size: 13px;
+        font-size: 16px;
     }
         #div .p::before {
             font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
@@ -203,4 +195,19 @@ header {
     .btn_footter:hover {
         background: rgba(255, 255, 255, 0.466);
         border-color: green;
+    }
+    .flux {
+        background-image: url(../media/svg/ico_flux.svg);
+    }
+    .search {
+        background-image: url(../media/svg/ico_search.svg);
+    }
+    .musique {
+        background-image: url(../media/svg/ico_musique.svg);
+    }
+    .playlist {
+        background-image: url(../media/svg/ico_playlist.svg);
+    }
+    .profil {
+        background-image: url(../media/svg/ico_profil.svg);
     }
