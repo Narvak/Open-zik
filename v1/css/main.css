@@ -1,0 +1,121 @@
+*, html, body, .body {
+    background: rgb(0, 25, 50);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px 5px;
+}
+
+.grid {
+    display: inline-grid;
+    gap: 5px 5px;
+}
+
+.marge {
+    margin: 5px;
+    padding: 5px;
+}
+
+.h1 {
+    background: transparent;
+    color: white;
+    font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+    font-size: 80pt;
+}
+
+.p {
+    background: transparent;
+    color: white;
+    font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+    font-size: 16pt;
+}
+
+.gen_middle {
+    /*background: rgb(200, 200, 200);*/
+    color: rgb(100, 100, 100);
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#gen_footer {
+    background: transparent;
+    color: green;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    bottom: 1;
+    margin: auto;
+}
+    object {
+        background: transparent;
+        color: green;
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        object:hover {
+            background: transparent;
+            color: green;
+            width: 150px;
+            height: 150px;
+        }
+    #in_footer {
+        background: transparent;
+        color: green;
+        width: 950px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.btn_footter {
+    background: transparent;
+    color: green;
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    border: 3px solid;
+    border-radius: 100px 100px 0px 0px;
+}
+    .btn_footter:hover {
+        background: rgba(255, 255, 255, 0.466);
+        border-color: green;
+    }
+    .flux {
+        background-image: url(../media/svg/ico_flux.svg);
+    }
+    .search {
+        background-image: url(../media/svg/ico_search.svg);
+    }
+    .musique {
+        background-image: url(../media/svg/ico_musique.svg);
+    }
+    .playlist {
+        background-image: url(../media/svg/ico_playlist.svg);
+    }
+    .profil {
+        background-image: url(../media/svg/ico_profil.svg);
+    }
+
+
+
+
+
+
+
+/*
+    background-color: rgb(25, 50, 75);
+    background-color: rgb(0, 50, 75);
+    background-color: rgb(0, 25, 50);
+    background-color: rgb(0, 25, 75);
+*/

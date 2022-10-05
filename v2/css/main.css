@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .body {
+    background: rgb(0, 25, 50);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(25, 50, 75);
+    width: 100%;
+    height: auto;
+}
+    .btn_header {
+        background-color: transparent;
+        color: white;
+        width: 25px;
+        height: 25px;
+        border: transparent;
+    }
+        .profil {
+            background-image: url(../media/svg/ico_profil.svg);
+        }
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px 5px;
+    flex-direction: row;
+}
+
+.grid {
+    display: inline-grid;
+    gap: 5px 5px;
+    grid-row: 1;
+}
+
+.marge {
+    margin: 5px;
+    padding: 5px;
+}
+    .marge_left {
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+
+.h1 {
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-family: Bodoni MT, serif;
+    font-size: 80pt;
+}
+
+.h2 {
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-family: Bodoni MT, serif;
+    font-size: 40pt;
+}
+
+.p {
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-family: Bodoni MT, serif;
+    font-size: 20pt;
+}
+
+.gen_middle {
+    /*background: rgb(200, 200, 200);*/
+    color: rgb(100, 100, 100);
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#gen_footer {
+    background: transparent;
+    color: green;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    bottom: 1px;
+    margin: auto;
+}
+    object {
+        background: transparent;
+        color: green;
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        object:hover {
+            background: transparent;
+            color: green;
+            width: 150px;
+            height: 150px;
+        }
+    #in_footer {
+        background: transparent;
+        color: green;
+        width: 950px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.btn_footter {
+    background: transparent;
+    color: green;
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    border: 3px solid;
+    border-radius: 100px 100px 0px 0px;
+}
+    .btn_footter:hover {
+        background: rgba(255, 255, 255, 0.466);
+        border-color: green;
+    }
+    .flux {
+        background-image: url(../media/svg/ico_flux.svg);
+    }
+    .search {
+        background-image: url(../media/svg/ico_search.svg);
+    }
+    .musique {
+        background-image: url(../media/svg/ico_musique.svg);
+    }
+    .playlist {
+        background-image: url(../media/svg/ico_playlist.svg);
+    }
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+/* navbar */
+.span-nav, .span-nav-h {
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.span-nav-1 {
+    background: white;
+    color: white;
+    width: 50px;
+    height: 3px;
+}
+.span-nav-2 {
+    background: white;
+    color: white;
+    width: 50px;
+    height: 3px;
+}
+.span-nav-3 {
+    background: white;
+    color: white;
+    width: 50px;
+    height: 3px;
+}
+/*@media only screen and (max-width: 992px) {
+    .span-nav-1 {
+        background: white;
+        color: white;
+        width: 50px;
+        height: 3px;
+        opacity: 1;
+        display: block;
+    }
+    .span-nav-2 {
+        opacity: 0;
+    }
+    .span-nav-3 {
+        background: white;
+        color: white;
+        opacity: 1;
+        width: 120px;
+    }
+}*/
+
+
+.color-strong {
+    background-color: #F2F2F2;
+}
+.color-bold {
+    background-color: #F2F2F2;
+}
+
+
+
+
+/*
+    background-color: rgb(25, 50, 75);
+    background-color: rgb(0, 50, 75);
+    background-color: rgb(0, 25, 50);
+    background-color: rgb(0, 25, 75);
+
+    background-color: rgb(100, 150, 200);
+
+    #F2F2F2
+*/

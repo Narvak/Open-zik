@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#1D1D1B;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="100" cy="100" r="100"/>
+	<circle class="st0" cx="100" cy="150" r="50"/>
+	<circle class="st0" cx="100" cy="82.1" r="25"/>
+	<circle class="st0" cx="142.9" cy="112.5" r="12.5"/>
+	<circle class="st0" cx="57.1" cy="112.5" r="12.5"/>
+</g>
+</svg>

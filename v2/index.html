@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+
+    <!-- javascript -->
+        <!-- jquery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Mon sript -->
+            <link rel="javascript" href="javascript/jquery/lib-jquery_js.js">
+
+</head>
+    <body>
+        <div id="header"></div>
+
+        <!-- <div id="parallaxindex">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="media/images/background.png">
+                
+            </div>
+        </div> -->
+
+    <div id="Mp4Index" class="parallax-window">
+    </div>
+
+    <div class="gen_middle marge_left">
+        <div id="root"></div>
+        <div id="h2index"></div>
+        <div id="main"></div>
+    </div>
+
+    <div id="Mp4Index" class="parallax-window">
+    </div>
+
+    <!-- <div id="parallaxindex">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="media/images/background.png">
+
+        </div>
+    </div> -->
+
+    <div id="gen_footer flex grid" class="marge">
+        <div id="buttonflux" class="marge"></div>
+        <div id="buttonsearch" class="marge"></div>
+        <div id="buttonmusique" class="marge"></div>
+        <div id="buttonplaylist" class="marge"></div>
+    </div>
+
+    <script type="text/babel">
+function Header() {
+    return <header>
+                <div>
+                    <div className="menu flex">
+                        <button className="btn_header profil">
+                            <img src="media/svg/ico_profil.svg"></img>
+                        </button>
+                        <button className="btn_header parametre">
+                            <img src="media/svg/ico_parametre.svg"></img>
+                        </button>
+                    </div>
+                </div>
+            </header>;
+}
+    const headercontainer = document.getElementById('header');
+    const header = ReactDOM.createRoot(headercontainer);
+    header.render(<Header />);
+
+function Mp4Index() {
+    return <iframe className="parallax-window" src="media/mp4/VID_20220916_085217_870.mp4"></iframe>
+;
+}
+    const mp4indexcontainer = document.getElementById('Mp4Index');
+    const mp4index = ReactDOM.createRoot(mp4indexcontainer);
+    mp4index.render(<Mp4Index />);
+
+function H1Index() {
+    return <h1 className="h1">Open Zik</h1>;
+}
+    const container = document.getElementById('root');
+    const root = ReactDOM.createRoot(container);
+    root.render(<H1Index />);
+
+function H2Index() {
+    return <h2 className="h2">
+        Plus de <strong><b>0</b></strong> musique <br />
+            disponible <strong><b>gratuitement</b></strong> <br />
+            et <b>sans pub</b>.
+    </h2>;
+}
+    const h2indexcontainer = document.getElementById('h2index');
+    const h2index = ReactDOM.createRoot(h2indexcontainer);
+    h2index.render(<H2Index />);
+
+
+
+function PIndex() {
+    return <p className="p">
+            <strong><b>Open zik</b></strong> est une plateforme de musique Open source. <br />
+            Vous n'avez pas besoin de payer pour avoir accès à plateforme. <br />
+            Vous avez très bien le droit de modifier les codes sources des pages. <br />
+    </p>;
+}
+    const maincontainer = document.getElementById('main');
+    const main = ReactDOM.createRoot(maincontainer);
+    main.render(<PIndex />);
+
+function ButtonFlux() {
+    return <button className="btn_footter flux">Flux</button>
+}
+    const buttonfluxcontainer = document.getElementById('buttonflux');
+    const buttonflux = ReactDOM.createRoot(buttonfluxcontainer);
+    buttonflux.render(<ButtonFlux />);
+
+function ButtonSearch() {
+    return <button className="btn_footter search">Search</button>
+}
+    const buttonsearchcontainer = document.getElementById('buttonsearch');
+    const buttonsearch = ReactDOM.createRoot(buttonsearchcontainer);
+    buttonsearch.render(<ButtonSearch />);
+
+function ButtonMusique() {
+    return <button className="btn_footter musique">Musique</button>
+}
+    const buttonmusiquecontainer = document.getElementById('buttonmusique');
+    const buttonmusique = ReactDOM.createRoot(buttonmusiquecontainer);
+    buttonmusique.render(<ButtonMusique />);
+
+function ButtonPlaylist() {
+    return <button className="btn_footter playlist">Playlist</button>
+}
+    const buttonplaylistcontainer = document.getElementById('buttonplaylist');
+    const buttonplaylist = ReactDOM.createRoot(buttonplaylistcontainer);
+    buttonplaylist.render(<ButtonPlaylist />);
+
+
+
+/*function ButtonProfil() {
+    return <button className="btn_header profil">
+        <img src="media/svg/ico_profil.svg"></img>
+    </button>
+}
+    const buttonprofilcontainer = document.getElementById('buttonprofil');
+    const buttonprofil = ReactDOM.createRoot(buttonprofilcontainer);
+    buttonprofil.render(<ButtonProfil />);
+
+function ButtonParametre() {
+    return <button className="btn_header parametre">
+        <img src="media/svg/ico_parametre.svg"></img>
+    </button>
+}
+    const buttonparametrecontainer = document.getElementById('buttonparametre');
+    const buttonparametre = ReactDOM.createRoot(buttonparametrecontainer);
+    buttonparametre.render(<ButtonParametre />);*/
+
+    
+/*function ParallaxIndex() {
+    return 
+}
+    const parallaxindexcontainer = document.getElementById('parallaxindex');
+    const parallaxindex = ReactDOM.createRoot(parallaxindexcontainer);
+    parallaxindex.render(<ParallaxIndex />);
+*/
+
+        console.log(Header)
+
+        console.log(H1Index)
+        console.log(H2Index)
+        console.log(PIndex)
+        console.log(ButtonFlux)
+        console.log(ButtonSearch)
+        console.log(ButtonMusique)
+        console.log(ButtonPlaylist)
+
+
+        //console.log(ButtonProfil)
+        // console.log(ButtonParametre)
+
+        // console.log(ParallaxIndex)
+
+    </script>
+
+
+
+
+  </body>
+</html>
+
+
+
+
+    <!--
+        Note: this page is a great way to try React but it's not suitable for production.
+        It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+        Read this section for a production-ready setup with JSX:
+        https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
+
+        In a larger project, you can use an integrated toolchain that includes JSX instead:
+        https://reactjs.org/docs/create-a-new-react-app.html
+
+        You can also use React without JSX, in which case you can remove Babel:
+        https://reactjs.org/docs/react-without-jsx.html
+    -->
